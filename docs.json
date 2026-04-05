@@ -1,0 +1,74 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Fizen",
+  "theme": "almond",
+  "logo": {
+    "light": "https://media.brand.dev/c2ac8bb2-e752-4dff-ae87-539ff23415e2.svg",
+    "dark": "https://media.brand.dev/c2ac8bb2-e752-4dff-ae87-539ff23415e2.svg"
+  },
+  "favicon": "https://media.brand.dev/26d46f3d-dd05-44da-865d-61a4f9c59cdb.jpg",
+  "colors": {
+    "primary": "#1be39b",
+    "light": "#0c8c5c",
+    "dark": "#040404"
+  },
+  "navbar": {
+    "primary": {
+      "type": "button",
+      "label": "Download App",
+      "href": "https://url.fizen.io/downloadgb"
+    }
+  },
+  "footer": {
+    "socials": {
+      "x": "https://twitter.com/fizenapp",
+      "telegram": "https://t.me/fizen_io",
+      "linkedin": "https://www.linkedin.com/company/fizen-io/",
+      "youtube": "https://www.youtube.com/@fizenio"
+    }
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": ["index", "general/products", "general/practical-applications"]
+          },
+          {
+            "group": "Fizen App",
+            "pages": ["help-center/fizen-app", "help-center/fizen-pay"]
+          },
+          {
+            "group": "Fizen Card",
+            "pages": [
+              "help-center/fizen-card/overview",
+              "help-center/fizen-card/apply",
+              "help-center/fizen-card/top-up",
+              "help-center/fizen-card/spending",
+              "help-center/fizen-card/fees"
+            ]
+          },
+          {
+            "group": "Partnerships",
+            "pages": ["cooperation/integration", "cooperation/business-collaboration"]
+          },
+          {
+            "group": "About",
+            "pages": [
+              "general/story",
+              "general/achievements",
+              "events",
+              "information/contact",
+              "information/brand-guidelines",
+              "information/terms",
+              "information/privacy",
+              "information/disclaimer"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

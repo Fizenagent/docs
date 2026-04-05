@@ -1,0 +1,72 @@
+{
+  "projectType": "saas",
+  "projectName": "Fizen",
+  "projectDescription": "Fizen is a crypto neobank for travelers and global citizens — spend USDT like cash with a Visa card, accept crypto payments, and manage your crypto life on the go.",
+  "theme": "almond",
+  "primaryColor": "#1be39b",
+  "lightColor": "#0c8c5c",
+  "darkColor": "#040404",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": ["welcome", "general/products", "general/practical-applications"]
+          },
+          {
+            "group": "Fizen App",
+            "pages": ["help-center/fizen-app", "help-center/fizen-pay"]
+          },
+          {
+            "group": "Fizen Card",
+            "pages": [
+              "help-center/fizen-card/overview",
+              "help-center/fizen-card/apply",
+              "help-center/fizen-card/top-up",
+              "help-center/fizen-card/spending",
+              "help-center/fizen-card/fees"
+            ]
+          },
+          {
+            "group": "Partnerships",
+            "pages": ["cooperation/integration", "cooperation/business-collaboration"]
+          },
+          {
+            "group": "About",
+            "pages": [
+              "general/story",
+              "general/achievements",
+              "events",
+              "information/contact",
+              "information/brand-guidelines",
+              "information/terms",
+              "information/privacy",
+              "information/disclaimer"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Fizen Card — USDT-powered Visa prepaid card accepted at 150M+ merchants worldwide",
+    "Fizen App — all-in-one crypto neobank for iOS and Android",
+    "Fizen Pay — cryptocurrency payment gateway for businesses via QR or API",
+    "Google Pay & Apple Pay support for contactless payments",
+    "Up to 200 cards per account for teams and media buyers",
+    "International money transfers with USDT",
+    "Tokenized US stocks and ETFs from crypto balance",
+    "Travel booking (hotels, flights, global eSIM) via app",
+    "Backed by Tether — the company behind USDT"
+  ],
+  "publicApiSurface": [
+    "Fizen Pay QR payment generation (static and dynamic)",
+    "Fizen Pay API for online USDT payment integration",
+    "Card management via Fizen App (top-up, freeze, transaction history)",
+    "USDT deposits via TRC20 and ERC20 networks",
+    "KYC verification flow",
+    "Affiliate program (Nano to Pro tiers)"
+  ]
+}
